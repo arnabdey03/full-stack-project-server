@@ -1,0 +1,9 @@
+POST http://localhost:5000/posts HTTP/1.1
+
+{
+	"title": "first post",
+	"message": "this is the first post",
+	"creator": "arnab",
+	"tags": ["blank for now"],
+	"selectedFile": null
+}
